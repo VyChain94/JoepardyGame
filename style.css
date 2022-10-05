@@ -1,0 +1,27 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgreen;
+    color: black;
+}
+.screen {
+    display: grid; 
+    grid-template:repeat(5, 20%) / repeat(5, 20%); 
+    height: 100vh;
+}
+.screen * {
+    border: 1px solid navy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.my-category-title{
+    background:blue;
+    font-size: 1.2rem;
+    grid-row-start:1;
+    text-transform: uppercase;
+}
+.categoryClue{
+    font-size: 2rem;
+}
